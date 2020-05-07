@@ -1,0 +1,49 @@
+{
+  "name": "2_REF_ExtraerDatos",
+  "description": "Plantilla de REF para procesar las palabras claves y obtener los datos solicitados del proceso.",
+  "main": "Main.xaml",
+  "dependencies": {
+    "BalaReva.Excel.Activities": "[2019.4.0]",
+    "UiPath": "[20.4.7391.34509]",
+    "UiPath.Excel.Activities": "[2.8.1-preview]",
+    "UiPath.Mail.Activities": "[1.8.3-beta.865074]",
+    "UiPath.System.Activities": "[20.2.0-preview]",
+    "UiPath.UIAutomation.Activities": "[20.2.0-preview]"
+  },
+  "webServices": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "20.2.0.108",
+  "projectVersion": "1.0.5",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "fileInfoCollection": []
+  },
+  "arguments": {
+    "input": [
+      {
+        "name": "in_OrchestratorQueueName",
+        "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+        "required": false,
+        "hasDefault": false
+      }
+    ],
+    "output": []
+  },
+  "expressionLanguage": "VisualBasic"
+}
