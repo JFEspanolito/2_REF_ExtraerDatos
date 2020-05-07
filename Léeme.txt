@@ -1,0 +1,20 @@
+Para tu fácil revisión te anexo los archivos que fueron modificados en este proyecto, para qué sea más fácil analizar lo que se desarrolló y lo qué se modificó (de lo ya pre establecido por el Framework).
+
+<carpeta>/<archivo>
+
+Data/Config.xlsx
+Data/<carpetas>
+
+Framework/CloseAllApplications.xaml
+Framework/InitAllApplications.xaml
+Framework/InitAllSettings.xaml
+Framework/SetTransactionStatus.xaml
+
+ProcessFolder/Process.xaml
+ProcessFolder/ObtenerNombredelInstructor.xaml
+ProcessFolder/NavegarHaciaBusqueda.xaml
+ProcessFolder/GenerarReporte.xaml
+ProcessFolder/ExtraerCursosEncontrados.xaml
+ProcessFolder/CorregirURLWeb.xaml
+
+Main.xaml
